@@ -255,6 +255,7 @@ img.header__logo {
 .footer__a{
     width: 2rem;
     padding: 0.2rem;
+    text-decoration: none;
 }
 
 /* ******* fin index ***** */
@@ -323,7 +324,6 @@ img.header__logo {
     text-align: center;
     color: #05c9e7;
     top: 1rem;
-    margin-top: 2.3rem;
     margin-bottom: 2.3rem;
 }
 
@@ -359,11 +359,12 @@ img.header__logo {
 .cartas{
     display: flex;
     text-align: center;
-    padding: 3rem 0rem;
+    margin-top: 2.5rem;
 }
 
 .cartas__div{
     display: flex;
+    align-items: center;
 }
 
 .cartas__creador{
@@ -394,6 +395,12 @@ img.header__logo {
     border-radius: 0.3rem;
 }
 
+.cartas__a:hover{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 1.5rem;
+}
+
 .cartas__a{
     color: white;
     text-decoration: none;
@@ -404,6 +411,7 @@ img.header__logo {
 .cartas__desarrollador{
     padding: 2rem;
     box-sizing: content-box;
+    width: 10rem;
     background-image: url("../img/desarrollador.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -543,6 +551,12 @@ img.header__logo {
             width: 50px;
             height: 50px;
     }
+    .cartas__div{
+        flex-direction: column;
+    }
+    .team__video{
+        width: 100vw;
+    }
 }
 
 @media screen and (max-width: 425px){
@@ -569,5 +583,8 @@ img.header__logo {
     .ico__borde{
             width: 50px;
             height: 50px;
+    }
+    .team__video{
+        width: 100vw;
     }
 }
