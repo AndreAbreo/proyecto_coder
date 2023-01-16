@@ -520,15 +520,8 @@ img.header__logo {
 
 /************ contacto **********/
 
-.main__contacto{
-    display: grid;
-    height: 90vh;
-    grid-template-rows: auto 1fr 100px;
-    grid-template-columns: 1fr 50%;
-    grid-template-areas: "titulo titulo"
-                         "form mapa"
-                         "info info";
-}
+.main__contacto
+    
 
 .contact__mapa{
     grid-area: mapa;
@@ -547,6 +540,7 @@ img.header__logo {
     text-align: center;
     border: 10px solid grey;
     padding: 1rem;
+    background-color: bisque;
 }
 
 .contacto__titulo{
