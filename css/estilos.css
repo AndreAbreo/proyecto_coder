@@ -607,6 +607,7 @@ img.header__logo {
 
     .team__video{
         width: 100vw;
+        position: relative;
     }
 
     .w-100{
@@ -642,6 +643,7 @@ img.header__logo {
 
     .team__video{
         width: 100vw;
+        position: relative;
     }
     
     .mascotasinf__div{
