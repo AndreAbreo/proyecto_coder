@@ -18,7 +18,7 @@
     <header class="header">
             <nav class="navbar navbar-expand-lg">
                 <div class="container div__nav">
-                    <img src="./img/logo.jpg" height="100px" class="header_logo" alt="logo">
+                    <img src="./img/logo.jpg" data-aos="flip-up" height="100px" class="header_logo" alt="logo">
                     <button class="navbar-toggler ico__borde" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon ico__ham" ></span>
                     </button>
@@ -73,16 +73,16 @@
 
         <section class="donar">
             <div class="contenedor">
-                <div class="donar__img__div"><img src="http://photos.demandstudios.com/getty/article/178/78/80377497.jpg" alt="foto" class="donar__img">
+                <div class="donar__img__div"><img src="http://photos.demandstudios.com/getty/article/178/78/80377497.jpg"alt="foto" class="donar__img fade-out">
                 </div>    
                 <p class="donar__p">Si puede ayude a estos animalitos con una pequeña donación</p>
-                <div class="donar_div"> <button class="donar__btn"><a href="https://www.paypal.com/uy/webapps/mpp/home?kid=p66059409907&gclid=Cj0KCQiAtICdBhCLARIsALUBFcGjcZG7jrEsrk0RipGNDkQTR9GxhN4MeDEWYA9_qyAMWnPkV8EylyMaAlUeEALw_wcB&gclsrc=aw.ds">Donar</a></button>
+                <div class="donar_div"> <button class="donar__btn vibrate-1" ><a href="https://www.paypal.com/uy/webapps/mpp/home?kid=p66059409907&gclid=Cj0KCQiAtICdBhCLARIsALUBFcGjcZG7jrEsrk0RipGNDkQTR9GxhN4MeDEWYA9_qyAMWnPkV8EylyMaAlUeEALw_wcB&gclsrc=aw.ds" target="_blank">Donar</a></button>
                 </div>    
             </div>
         </section>
         <section class="contact">
             <h2 class="contact__h2">Aún tienes dudas?</h2>
-            <button class="contact__btn"><a href="./vistas/contacto.html">Contáctanos</a></button>
+            <button class="contact__btn" data-aos="fade-down"><a href="./vistas/contacto.html">Contáctanos</a></button>
         </section>
     </main>    
         <footer class="footer">
@@ -111,7 +111,7 @@
         </footer>
         <script>
             AOS.init({
-                once: true,
+                once: false,
             }
             );
         </script>
