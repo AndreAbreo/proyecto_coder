@@ -1,84 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda</title>
-    <link rel="shortcut icon" href="../img/dfb86ff543e6c159abccaf7dd2546772.ico.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
-<body>
-    <header class="header">
-        <div class="contenedor">
-            <div class="header__logo">
-                <img src="../img/dfb86ff543e6c159abccaf7dd2546772.ico.jpg" alt="logo"></div>
-            <nav class="header__nav">
-                <ul class="header__ul">
-                    <li class="header__li"><a class="header__a" href="../index.html">Inicio</a></li>
-                    <li class="header__li"><a class="header__a" href="./proyecto.html">Proyecto</a></li>
-                    <li class="header__li"><a class="header__a" href="./equipo.html">Equipo</a></li>
-                    <li class="header__li"><a class="header__a" href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- AOS -->
+        <script src="https://kit.fontawesome.com/c7f9ac558a.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bitter&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tienda</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="shortcut icon" href="../img/dfb86ff543e6c159abccaf7dd2546772.ico.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <header class="header">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container div__nav">
+                        <img src="../img/logo.jpg" height="100px" class="header_logo" alt="logo">
+                        <button class="navbar-toggler ico__borde" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon ico__ham" ></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav nav__menu">
+                                <li class="nav-item">
+                                    <a class="nav-link active--menu blanco" aria-current="page" href="../vistas/tienda.html">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link blanco" href="../index.html">Index</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link blanco" href="../vistas/equipo.html">Equipo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link blanco" href="../vistas/proyecto.html">Proyecto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link blanco" href="../vistas/contacto.html">Contacto</a>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </header>
     <main>
-        <section class="catalogo">
-            <div class="contenedor">
-                <div><h1 class="catalogo__h1">Mascotas en Adopción</h1></div>
-                <div class="div__tabla">
-                    <table class="catalogo__tabla" border="10" cellspacing="10" cellpadding="20">
-                        <tr class="catalogo__fila1">
-                            <th>Mascotas</th>
-                        </tr>
-                        <tr class="catalogo__fila2">
-                            <td class="catalogo__col1">Erizo de 2años</td>
-                            <td class="catalogo__col1">Conejo amaestrado</td>
-                            <td class="catalogo__col1">Hamster cariñoso</td>
-                            <td class="catalogo__col1">Húron viejito</td>
-                            <td class="catalogo__col1">Cobayo busca pareja</td>
-                        </tr>
-                        <tr class="catalogo__fila3">
-                            <td class="catalogo__col2"><img src="#" alt="animal1"></td>
-                            <td class="catalogo__col2"><img src="#" alt="animal2"></td>
-                            <td class="catalogo__col2"><img src="#" alt="animal3"></td>
-                            <td class="catalogo__col2"><img src="#" alt="animal4"></td>
-                            <td class="catalogo__col2"><img src="#" alt="animal5"></td>
-                        </tr>
-                    </table>
-                </div>
+        <div><h1 class="mascotasinf__h1">Mercado de Mascotas</h1></div>
+    </section>
+    <section class="cartas">
+        <div class="contenedor">
+            <div class="cartas__mascotas">
+            <div class="cartas__tienda erizo">
+                <h2 class="cartas__item">Erizo</h2>
+                <p class="cartas__parrafo">Hola me llamo Carlos tengo 2 años y espero me adopten pronto. Soy muy dormilon y me gusta jugar a las escondidas...</p>
+                <button class="cartas__btn"><a class="cartas__a" href="./contacto.html">Adoptar</a></button>
             </div>
-        </section>
+            <div class="cartas__tienda huron">
+                <h2 class="cartas__item">Hurón</h2>
+                <p class="cartas__parrafo">Hurón de 3 meses listo para llevarselo</p>
+                <button class="cartas__btn"><a class="cartas__a" href="./contacto.html">Adoptar</a></button>
+            </div>
+            <div class="cartas__tienda conejo">
+                <h2 class="cartas__item">Conejo</h2>
+                <p class="cartas__parrafo">Regalo conejo de 5 meses a quien lo quiera cuidar mucho</p>
+                <button class="cartas__btn"><a class="cartas__a" href="./contacto.html">Adoptar</a></button>
+            </div>
+            <div class="cartas__tienda chinchilla">
+                <h2 class="cartas__item">Chinchilla</h2>
+                <p class="cartas__parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nam similique dolorem. Qui eligendi eveniet omnis deserunt quisquam, dolore nam ullam officiis facere, totam quaerat error ducimus. Eaque, itaque praesentium.</p>
+                <button class="cartas__btn"><a class="cartas__a" href="./contacto.html">Adoptar</a></button>
+            </div>
+            <div class="cartas__tienda hamster">
+                <h2 class="cartas__item">Hamster</h2>
+                <p class="cartas__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quidem, magnam ratione delectus quo praesentium id repellendus dolor adipisci in autem dicta, dignissimos dolorum modi, assumenda cum facilis! Voluptatum, reiciendis.</p>
+                <button class="cartas__btn"><a class="cartas__a" href="./contacto.html">Adoptar</a></button>
+            </div>
+            <div class="cartas__tienda cobayo">
+                <h2 class="cartas__item">Cobayo</h2>
+                <p class="cartas__parrafo">Por favor necesito un hogar me porto bien y soy muy amigable</p>
+                <button class="cartas__btn"><a class="cartas__a" href="./contacto.html">Adoptar</a></button>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
         <section class="contact__tienda">
             <h2 class="contact__h2">Aún tienes dudas?</h2>
             <button class="contact__btn"><a href="../vistas/contacto.html">Contáctanos</a></button>
         </section>
-        <section class="insumos">
+        <div><h2 class="mascotasinf__h1">Mercado de Insumos</h2></div>
+        <section class="cartas">
             <div class="contenedor">
-                <div><h2 class="insumos__h2">Venta de Insumos</h2></div>
-                <div class="div__tabla">
-                    <table class="catalogo__tabla" border="10" cellspacing="10" cellpadding="20">
-                        <tr class="catalogo__fila1">
-                            <th>Productos</th>
-                        </tr>
-                        <tr class="catalogo__fila2">
-                            <td class="catalogo__col1">item1</td>
-                            <td class="catalogo__col1">item2</td>
-                            <td class="catalogo__col1">item3</td>
-                            <td class="catalogo__col1">item4</td>
-                            <td class="catalogo__col1">item5</td>
-                        </tr>
-                        <tr class="catalogo__fila3">
-                            <td class="catalogo__col2"><img src="#" alt="insumo1"></td>
-                            <td class="catalogo__col2"><img src="#" alt="insumo2"></td>
-                            <td class="catalogo__col2"><img src="#" alt="insumo3"></td>
-                            <td class="catalogo__col2"><img src="#" alt="insumo4"></td>
-                            <td class="catalogo__col2"><img src="#" alt="insumo5"></td>
-                        </tr>
-                    </table>
+                <div class="cartas__mascotas">
+                <div class="cartas__tienda rueda">
+                    <h2 class="cartas__item">Rueda</h2>
+                    <p class="cartas__parrafo">Ruedas de ejercicio supersilenciosas para hámster, con soporte ajustable, para ratones, jerbos u otros animales pequeños</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/5i4g7J6" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda gorro">
+                    <h2 class="cartas__item">Gorrito</h2>
+                    <p class="cartas__parrafo">2 piezas de mini sombrero de punto a mano lindo sombrero para mascotas con correa ajustable para hámster, serpientes, rana, conejo, lagarto, animales pequeños, accesorios de disfraz de Halloween, accesorios de disfraz de cabeza de reptil, ropa de fotos</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/2ws6HaH" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda jaula1">
+                    <h2 class="cartas__item">Jaula</h2>
+                    <p class="cartas__parrafo">Jaula de animales pequeños con accesorios, 25.5 x 17 x 20.8 pulgadas, jaula plegable de conejo con bandeja extraíble y plataforma giratoria para hurón chinchilla</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/aD2OKfW" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda jaula2">
+                    <h2 class="cartas__item">Mega Jaula</h2>
+                    <p class="cartas__parrafo">Jaula para hámster | Impresionante casa de hámster arcade (blanco) | 18.11 x 11.61 x 21.26 pulgadas</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/4sJXmn6" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda kit_viaje">
+                    <h2 class="cartas__item">Kit de Viaje</h2>
+                    <p class="cartas__parrafo">Transportador de mascotas, bolsa transportadora de gatos aprobada por aerolíneas para perros pequeños, medianos y pequeños, bolsa portátil para mascotas para gatos con arnés, cortauñas, cepillo para depilación, cuenco plegable</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/dLJJjnR" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda dispensador">
+                    <h2 class="cartas__item">Dispen-<br>sador</h2>
+                    <p class="cartas__parrafo">Dispensador Choco Nose de agua para mascotas, sin goteo La mejor botella de agua para mascotas pequeñas/conejos/hurones/hámsteres/cobayos/animalitos Sin manchar , Azul</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/fu7f5CR" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda comedero">
+                    <h2 class="cartas__item">Comedero</h2>
+                    <p class="cartas__parrafo">Estante para comedero de heno de conejo, dispensador de agua sin goteo para jaula de conejillo de indias con botella de agua colgante de 20.3 fl oz y soporte para heno para conejos, conejos, animales pequeños, chinchillas, erizos</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/1PE9VvS" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda jardin">
+                    <h2 class="cartas__item">Juegos de Jardín</h2>
+                    <p class="cartas__parrafo">Juego de juguetes masticables para hámster, juguetes molares de animales pequeños, accesorios de madera para conejillos de indias, chinchillas, jerbos, ratones, ratones, ratones, roedores de ratón, juguete oscilante de balancín (madera)</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/ffO4Kbs" target="_blank">Comprar</a></button>
+                </div>
+                <div class="cartas__tienda conejera">
+                    <h2 class="cartas__item">Conejera</h2>
+                    <p class="cartas__parrafo">Conejera de madera resistente a la intemperie para mascotas al aire libre, refugio para gatos en blanco</p>
+                    <button class="cartas__btn"><a class="cartas__a" href="https://a.co/d/95D7ICK" target="_blank">Comprar</a></button>
+                </div>
                 </div>
             </div>
+        </div>
         </section>
     </main>
     <footer class="footer">
@@ -86,10 +146,10 @@
             <nav class="footer__nav">
                 <ul class="footer__ul">
                     <li class="footer__li"><a class="footer__a" href="../index.html">Inicio</a></li>
-                    <li class="footer__li"><a class="footer__a" href="./proyecto.html">Proyecto</a></li>
-                    <li class="footer__li"><a class="footer__a" href="./equipo.html">Equipo</a></li>
-                    <li class="footer__li"><a class="footer__a" href="./tienda.html">Tienda</a></li>
-                    <li class="footer__li"><a class="footer__a" href="./contacto.html">Contacto</a></li>
+                    <li class="footer__li"><a class="footer__a" href="../vistas/proyecto.html">Proyecto</a></li>
+                    <li class="footer__li"><a class="footer__a" href="../vistas/equipo.html">Equipo</a></li>
+                    <li class="footer__li"><a class="footer__a" href="../vistas/tienda.html">Tienda</a></li>
+                    <li class="footer__li"><a class="footer__a" href="../vistas/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -105,5 +165,12 @@
             </nav>
         </div>
     </footer>
+    <script>
+        AOS.init({
+            once: true,
+        }
+        );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
