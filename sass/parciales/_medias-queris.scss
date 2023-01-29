@@ -1,0 +1,93 @@
+/** @Medias **/
+
+@media screen and (min-width: 1024px){
+    .footer{
+        line-height: 3rem;
+    }
+    .hero{
+    height: 75vh;
+    }
+    .div__nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px ){
+    .negocio__div{
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        line-height: 2.5rem;
+    }
+
+    .hero{
+        height: 82vh;
+        }
+    img.header__logo {
+            width: 50px;
+    }
+        
+    .ico__ham{
+            width: 80%;
+            height: 80%;
+    }
+        
+    .ico__borde{
+            width: 50px;
+            height: 50px;
+    }
+
+    .cartas__div{
+        flex-direction: column;
+    }
+
+    .team__video{
+        width: 100vw;
+        position: relative;
+    }
+
+    .w-100{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .negocio__div{
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+        line-height: 2.5rem;
+    }
+
+    .hero{
+        height: 76vh;
+        }
+    img.header__logo {
+            width: 50px;
+    }
+        
+    .ico__ham{
+            width: 80%;
+            height: 80%;
+    }
+        
+    .ico__borde{
+            width: 50px;
+            height: 50px;
+    }
+
+    .team__video{
+        width: 100vw;
+        position: relative;
+    }
+    
+    .mascotasinf__div{
+        flex-direction: column;
+    }
+    .w-100{
+        height: 300px;
+    }
+}

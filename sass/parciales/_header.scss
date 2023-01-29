@@ -1,0 +1,36 @@
+/* ****HEADER**** */
+
+.header{
+    display: grid;
+    background-color: #5f7174;
+}
+
+img.header__logo {
+    width:100px;
+}
+
+.blanco{
+    color: white;
+}
+
+.ico__ham{
+    width: 80%;
+    height: 80%;
+}
+
+.ico__borde{
+    width: 100px;
+    height: 100px;
+}
+
+.active--menu{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 2rem;
+}
+
+.nav__menu{
+    align-items: center;
+}
+
+/* ******TERMINO DEL HEADER ******** */

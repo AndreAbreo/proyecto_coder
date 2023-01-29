@@ -1,0 +1,40 @@
+/* ***** footer ****** */
+
+.footer{
+    margin-top: 3REM;
+    background-color: #6a888c;
+    display: flex;
+}
+
+.footer__nav{
+    padding: 0.4rem;
+    text-align: center;
+}
+
+.footer__ul{
+    list-style-type: none;
+}
+
+.footer .footer__a{
+    color: white;
+}
+ 
+ .footer .footer__a:hover{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 1.5rem;
+}
+
+.footer__copy{
+    color: white;
+}
+
+.footer__redes{
+    list-style: none;
+}
+
+.footer__a{
+    width: 2rem;
+    padding: 0.2rem;
+    text-decoration: none;
+}

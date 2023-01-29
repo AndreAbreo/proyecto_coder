@@ -1,0 +1,128 @@
+.negocio{
+    background-color: #6a888c;
+}
+
+.negocio__div{
+    
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.negocio__img{
+    width: 20rem;
+}
+
+.negocio__h2{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: #00a6c0 ;
+}
+
+.negocio__p{
+    text-align: center;
+    color: white;
+}
+
+.caract__lista{
+    text-align: center;
+    padding: 2rem;
+    list-style-type: none;
+}
+
+.donar{
+    background-color: #6a888c;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.donar__img{
+    padding: 1rem;
+    width: 10rem;
+    height: 12rem;
+    position: relative;
+    text-align: center;
+}
+
+.donar__img__div{
+    text-align: center;
+    margin: 1rem;
+}
+
+.donar__p{
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 20rem;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    justify-content: center;
+}
+
+.donar_div{
+    text-align: center;
+    margin: 1rem;
+}
+
+.donar__btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.2rem 0.2rem;
+    border-radius: 1rem;
+    border: solid 0.3rem #05c9e7;
+    background-color: #5f7174;
+    margin-bottom: 1rem;
+}
+
+.donar__btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.donar__btn a:hover{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 1.5rem;
+}
+
+.contact{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.contact__h2{
+    font-size: 3rem;
+    text-align: center;
+    color: #05c9e7;
+    top: 1rem;
+
+}
+
+.contact__btn{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 0.2rem;
+    border-radius: 1rem;
+    border: solid 0.3rem #05c9e7;
+    background-color: #5f7174;
+    margin-bottom: 1rem;
+}
+
+.contact__btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact__btn a:hover{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 1.5rem;
+}
+
+/* ******* fin index ***** */

@@ -1,0 +1,119 @@
+/* ****** Equipo ****** */
+
+.team{
+    background-color: #6a888c;
+}
+
+.team__h1{
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    color: #05c9e7;
+    top: 1rem;
+    padding: 2.5rem;
+}
+
+.team__div{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-areas: "video foto1";
+}
+
+.team__video{
+    padding: 1rem;
+    width: 100%;
+    grid-area: video;
+}
+
+.team__fotos{
+    text-align: center;
+    padding: 1rem;
+}
+
+.team__img1{
+    width: 50%;
+}
+
+.team__img2{
+    width: 25%;
+}
+
+.team__img3{
+    width: 100px;  
+}
+
+.cartas{
+    display: flex;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.cartas__div{
+    display: flex;
+    align-items: center;
+}
+
+.cartas__creador{
+    padding: 2rem;
+    box-sizing: content-box;
+    width: 10rem;
+    background-image: url("../img/ceo.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    border: #5f7174 solid 0.5rem;
+    margin: 1rem;
+    background-size: cover;
+}
+
+.cartas__h2{
+    color: #00a6c0;
+    font-weight: bolder;
+    font-size: 2rem;
+    height: 12rem;
+}
+
+.cartas__btn{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #6a888c;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.cartas__a:hover{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 1.5rem;
+}
+
+.cartas__a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.cartas__desarrollador{
+    padding: 2rem;
+    box-sizing: content-box;
+    width: 10rem;
+    background-image: url("../img/desarrollador.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    border: #5f7174 solid 0.5rem;
+    margin: 1rem;
+    background-size: cover;
+}
+
+.cartas__colaborador{
+    padding: 2rem;
+    box-sizing: content-box;
+    width: 10rem;
+    background-image: url("../img/colab.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    border: #5f7174 solid 0.5rem;
+    margin: 1rem;
+    background-size: cover;
+}

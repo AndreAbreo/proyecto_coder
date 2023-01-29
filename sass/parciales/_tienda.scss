@@ -1,0 +1,100 @@
+/********** tienda ************/
+
+.cartas__tienda{
+    padding: 2rem;
+    box-sizing: content-box;
+    width: 10rem;
+    background-repeat: no-repeat;
+    background-position: top;
+    border: #5f7174 solid 0.5rem;
+    margin: 1rem;
+    background-size: contain;
+}
+
+.erizo{
+    background-image: url("../img/erizox.jpg");
+}
+.cartas__mascotas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cartas__item{
+    color: #00a6c0;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 12rem;
+}
+
+.cartas__parrafo{
+    color: rgb(0, 0, 0);
+    height: 8rem;
+    overflow: scroll;
+}
+
+.huron{
+    background-image: url("../img/huron.jpg");
+    background-size: 338px;
+}
+
+.conejo{
+    background-image: url("../img/conejox.jpg");
+    background-size: 400px;
+}
+
+.chinchilla{
+    background-image: url("../img/Chinchillax.jpg");
+    background-size: 300px;
+}
+.hamster{
+    background-image: url("../img/hamster.jpg");
+    background-size: 400px;
+}
+
+.cobayo{
+    background-image: url("../img/cobayox.jpg");
+    background-size: 400px;
+}
+
+.contact__tienda{
+    text-align: center;
+    background-color: #6a888c;
+}
+
+.insumos__h2{
+    text-align: center;
+    margin-top: 3rem;
+    color: #05c9e7;
+    font-size: 2rem;
+}
+
+.rueda{
+    background-image: url("../img/rueda.jpg");
+    background-size: 200px;
+}
+.gorro{
+    background-image: url("../img/gorro.jpg");
+}
+.jaula1{
+    background-image: url("../img/jaula1.jpg");
+}
+.jaula2{
+    background-image: url("../img/jaula2.jpg");
+    background-size: 190px;
+}
+.kit_viaje{
+    background-image: url("../img/kit_viaje.jpg");
+}
+.dispensador{
+    background-image: url("../img/dispensador.jpg");
+}
+.comedero{
+    background-image: url("../img/comedero.jpg");
+}
+.jardin{
+    background-image: url("../img/jardin.jpg");
+}
+.conejera{
+    background-image: url("../img/conejera.jpg");
+}

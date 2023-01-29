@@ -1,0 +1,39 @@
+.hero{
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero__h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #05c9e7;
+    margin-top: 1.5rem;
+}
+
+.hero__button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 0.2rem;
+    border-radius: 1rem;
+    border: solid 0.3rem #05c9e7;
+    background-color: #5f7174;
+    margin-bottom: 1rem;
+}
+
+.hero__button a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero__button a:hover{
+    color: #05c9e7;
+    text-shadow: 0rem 0.2rem 0.3rem #000000;
+    font-size: 1.5rem;
+}

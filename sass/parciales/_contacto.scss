@@ -1,0 +1,42 @@
+/************ contacto **********/
+
+.main__contacto
+    
+
+.contact__mapa{
+    grid-area: mapa;
+    text-align: center;
+    align-self: center;
+}
+
+.infocontact{
+    grid-area: info;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.formulario{
+    grid-area: form;
+    text-align: center;
+    border: 10px solid grey;
+    padding: 1rem;
+    background-color: #5f7174;
+    color: #05c9e7;
+}
+
+.contacto__titulo{
+    grid-area: titulo;
+}
+
+.contacto__h1{
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    color: #05c9e7;
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+
+}
+.infocontact__lista{
+    list-style: none;
+}
