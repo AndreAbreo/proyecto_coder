@@ -1,7 +1,10 @@
 /************ contacto **********/
 
-.main__contacto
-    
+.contenedor__form{
+    text-align: end;
+    display: flex;
+    justify-content: center;
+}    
 
 .contact__mapa{
     grid-area: mapa;

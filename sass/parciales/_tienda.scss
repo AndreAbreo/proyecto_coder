@@ -10,10 +10,6 @@
     margin: 1rem;
     background-size: contain;
 }
-
-.erizo{
-    background-image: url("../img/erizox.jpg");
-}
 .cartas__mascotas{
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +27,9 @@
     color: rgb(0, 0, 0);
     height: 8rem;
     overflow: scroll;
+}
+.erizo{
+    background-image: url("../img/erizox.jpg");
 }
 
 .huron{
