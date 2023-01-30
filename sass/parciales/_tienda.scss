@@ -1,5 +1,4 @@
 /********** tienda ************/
-
 .cartas__tienda{
     padding: 2rem;
     box-sizing: content-box;
@@ -15,14 +14,12 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .cartas__item{
     color: #00a6c0;
     font-weight: bolder;
     font-size: 2rem;
     padding-top: 12rem;
 }
-
 .cartas__parrafo{
     color: rgb(0, 0, 0);
     height: 8rem;
@@ -31,17 +28,14 @@
 .erizo{
     background-image: url("../img/erizox.jpg");
 }
-
 .huron{
     background-image: url("../img/huron.jpg");
     background-size: 338px;
 }
-
 .conejo{
     background-image: url("../img/conejox.jpg");
     background-size: 400px;
 }
-
 .chinchilla{
     background-image: url("../img/Chinchillax.jpg");
     background-size: 300px;
@@ -50,24 +44,20 @@
     background-image: url("../img/hamster.jpg");
     background-size: 400px;
 }
-
 .cobayo{
     background-image: url("../img/cobayox.jpg");
     background-size: 400px;
 }
-
 .contact__tienda{
     text-align: center;
     background-color: #6a888c;
 }
-
 .insumos__h2{
     text-align: center;
     margin-top: 3rem;
     color: #05c9e7;
     font-size: 2rem;
 }
-
 .rueda{
     background-image: url("../img/rueda.jpg");
     background-size: 200px;

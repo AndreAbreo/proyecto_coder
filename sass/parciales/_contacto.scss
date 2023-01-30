@@ -1,23 +1,18 @@
 /************ contacto **********/
-
-.contenedor__form{
-    text-align: end;
-    display: flex;
-    justify-content: center;
-}    
-
-.contact__mapa{
-    grid-area: mapa;
-    text-align: center;
-    align-self: center;
+.contacto{
+    display: block;
+    &__titulo{
+        grid-area: titulo;
+        &__h1{
+            display: block;
+            font-size: 3rem;
+            text-align: center;
+            color: #05c9e7;
+            margin-top: 2.3rem;
+            margin-bottom: 2.3rem;
+        }
+    }
 }
-
-.infocontact{
-    grid-area: info;
-    text-align: center;
-    margin-top: 1rem;
-}
-
 .formulario{
     grid-area: form;
     text-align: center;
@@ -25,21 +20,22 @@
     padding: 1rem;
     background-color: #5f7174;
     color: #05c9e7;
+    &__cont{
+        text-align: end;
+        display: flex;
+        justify-content: center;
+    }    
 }
-
-.contacto__titulo{
-    grid-area: titulo;
-}
-
-.contacto__h1{
-    display: block;
-    font-size: 3rem;
+.infocontact{
+    grid-area: info;
     text-align: center;
-    color: #05c9e7;
-    margin-top: 2.3rem;
-    margin-bottom: 2.3rem;
-
+    margin-top: 1rem;
+    &__lista{
+        list-style: none;
+    }
 }
-.infocontact__lista{
-    list-style: none;
+.contact__mapa{
+    grid-area: mapa;
+    text-align: center;
+    align-self: center;
 }
