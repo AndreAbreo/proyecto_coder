@@ -11,25 +11,12 @@
     }
     &__div{
         display: grid;
-        grid-template-columns: 50% 1fr;
+        justify-content: center;
         grid-template-areas: "video foto1";
         &__video{
             padding: 1rem;
             width: 100%;
             grid-area: video;
-        }
-    }
-    &__fotos{
-        text-align: center;
-        padding: 1rem;
-        &__img1{
-            width: 50%;
-        }
-        &__img2{
-            width: 25%;
-        }
-        &__img3{
-            width: 100px;  
         }
     }
 }
